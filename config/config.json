@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "NewFront",
-    "password": "DevDemo",
-    "database": "NewFront",
+    "username": "YourUserName",
+    "password": "YourPassword",
+    "database": "YourDatabase",
     "host": "localhost",
     "dialect": "postgres",
     "operatorsAliases": false
