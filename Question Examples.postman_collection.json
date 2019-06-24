@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "0f184587-c3aa-45a8-bd7d-0a99e3436f37",
+		"name": "Question Examples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Match String To Given Percentage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/matching_questions?questiontomatch=Are you a good&percentagetomatch=40",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"matching_questions"
+					],
+					"query": [
+						{
+							"key": "questiontomatch",
+							"value": "Are you a good"
+						},
+						{
+							"key": "percentagetomatch",
+							"value": "40"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Question pull in page format",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/questions?page=2&pagesize=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"questions"
+					],
+					"query": [
+						{
+							"key": "pageSize",
+							"value": "50",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "pagesize",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
