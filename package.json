@@ -1,0 +1,20 @@
+{
+  "name": "question-search-api",
+  "version": "1.0.0",
+  "description": "API For the Question Example Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "builddatabase": "node buildDatabase.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shawn Rucker",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.8.10"
+  }
+}

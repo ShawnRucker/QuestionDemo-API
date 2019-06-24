@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "NewFront",
+    "password": "DevDemo",
+    "database": "NewFront",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
